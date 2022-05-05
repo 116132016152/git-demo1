@@ -1,0 +1,13 @@
+秘钥：ssh-keygen -t rsa
+实现免密登录：
+git remote add origin_ssh git@github.com:116132016152/git-demo1.git
+git push origin_ssh master
+
+
+克隆：git clone 仓库地址
+拉取：git pull 远程仓库地址 分支名称
+解决冲突：
+
+git忽略清单
+git忽略清单文件名称：.git
+将工作目录中的文件全部加到暂存区： git add .
